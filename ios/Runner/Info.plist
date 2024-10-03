@@ -45,5 +45,27 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Grant access to the camera at all times while in the workplace to take a picture of the actual user's face to confirm his presence inside the facility.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Grant access to the photos gallery access to update and send profile image</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Grant access to your location always, and enabling 'location accuracy' is crucial for verifying your presence in the office, creating optimal routes, and seamlessly running location-related functions in the background, enhancing your overall app experience.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Grant access to your location always, and enabling 'location accuracy' is crucial for verifying your presence in the office, creating optimal routes, and seamlessly running location-related functions in the background, enhancing your overall app experience.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Grant access to your location always, and enabling 'location accuracy' is crucial for verifying your presence in the office, creating optimal routes, and seamlessly running location-related functions in the background, enhancing your overall app experience.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Motion detection is needed to determine more accurate locations when no GPS signal is found or used.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
 </dict>
 </plist>

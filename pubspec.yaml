@@ -9,11 +9,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # flutter_foreground_task: ^8.10.2 // This has a bug
+  flutter_foreground_task: 8.9.0 # This is work fine
+  dio: ^5.7.0
+  permission_handler: ^11.3.1
+  geolocator: ^12.0.0
+  json_annotation: ^4.9.0
+  equatable: ^2.0.5
+  nested: ^1.0.0
+  flutter_bloc: ^8.1.6
+  freezed_annotation: ^2.4.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.13
 
 flutter:
   uses-material-design: true
